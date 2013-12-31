@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterPilot>
+	<Ennemy>
+		<Tie>Description</Tie>
+		<Cruiser>Description</Cruiser>
+		<Squadron >Description</Squadron>
+		<FakePlanet >Description</FakePlanet>
+		<Soon >Description</Soon>
+	</Ennemy>
+	<Wave nbWave="4">
+		<Wave value="1">
+			<Tie value="4"></Tie>
+			<Cruiser value="3"></Cruiser>
+			<Squadron value="2"></Squadron>
+			<FakePlanet value="1"></FakePlanet>
+			<Soon value="0"></Soon>
+		</Wave>
+		<Wave value="2">
+			<Tie value="7"></Tie>
+			<Cruiser value="4"></Cruiser>
+			<Squadron value="3"></Squadron>
+			<FakePlanet value="3"></FakePlanet>
+			<Soon value="1"></Soon>
+		</Wave>
+		<Wave value="3">
+			<Tie value="10"></Tie>
+			<Cruiser value="8"></Cruiser>
+			<Squadron value="4"></Squadron>
+			<FakePlanet value="3"></FakePlanet>
+			<Soon value="2"></Soon>
+		</Wave>
+		<Wave value="4">
+			<Tie value="13"></Tie>
+			<Cruiser value="9"></Cruiser>
+			<Squadron value="7"></Squadron>
+			<FakePlanet value="6"></FakePlanet>
+			<Soon value="5"></Soon>
+		</Wave>
+		
+	</Wave>
+	<World>
+		<PlanetDensity value="50"></PlanetDensity>
+		<BonusDensity value="10"></BonusDensity>
+	</World>
+</MasterPilot>
